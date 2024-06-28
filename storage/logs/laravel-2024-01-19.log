@@ -1,0 +1,947 @@
+[2024-01-19 09:40:47] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:41:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:42:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:43:02] local.ERROR: syntax error, unexpected single-quoted string "FilemanagerController@index", expecting ")" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected single-quoted string \"FilemanagerController@index\", expecting \")\" at D:\\wamp\\www\\lms\\routes\\web.php:113)
+[stacktrace]
+#0 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(503): Illuminate\\Routing\\RouteFileRegistrar->register('D:\\\\wamp\\\\www\\\\lms...')
+#1 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(457): Illuminate\\Routing\\Router->loadRoutes('D:\\\\wamp\\\\www\\\\lms...')
+#2 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(192): Illuminate\\Routing\\Router->group(Array, 'D:\\\\wamp\\\\www\\\\lms...')
+#3 D:\\wamp\\www\\lms\\app\\Providers\\RouteServiceProvider.php(64): Illuminate\\Routing\\RouteRegistrar->group('D:\\\\wamp\\\\www\\\\lms...')
+#4 D:\\wamp\\www\\lms\\app\\Providers\\RouteServiceProvider.php(48): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#5 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#18 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1009): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(987): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 31)
+#21 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(988): array_walk(Array, Object(Closure))
+#22 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 D:\\wamp\\www\\lms\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2024-01-19 09:43:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:44:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:45:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:46:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:47:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:48:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:49:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:50:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:51:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:52:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:53:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:54:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:55:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:56:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:57:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:58:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 09:59:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:00:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:01:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:02:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:03:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:04:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:05:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:06:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:07:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:08:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:09:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:10:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:11:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:12:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:13:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:14:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:15:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:16:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:17:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:18:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:19:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:20:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:21:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:22:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:23:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:24:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:25:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:26:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:27:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:28:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:29:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:30:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:31:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:32:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:33:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:34:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:35:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:36:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:37:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:38:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:39:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:40:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:41:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:42:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:43:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:44:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:45:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:46:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:47:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:48:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:49:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:50:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:51:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:52:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:53:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:54:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:55:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:56:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:57:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:58:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 10:59:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:00:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:01:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:02:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:03:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:04:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:05:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:06:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:07:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:08:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:09:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:10:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:11:31] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:12:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:13:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:14:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:15:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:16:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:17:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:18:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:19:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:20:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:21:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:22:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:23:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:24:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:25:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:26:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:27:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:28:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:29:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:30:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:31:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:32:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:33:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:34:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:35:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:36:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:37:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:38:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:39:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:40:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:41:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:42:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:43:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:44:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:45:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:46:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:47:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:48:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:49:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:50:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:51:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:52:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:53:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:54:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:55:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:56:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:57:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:58:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 11:59:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:00:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:01:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:02:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:03:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:04:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:05:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:06:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:07:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:08:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:09:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:10:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:11:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:12:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:13:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:14:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:15:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:16:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:17:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:18:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:19:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:20:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:21:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:22:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:23:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:24:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:25:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:26:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:27:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:28:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:29:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:30:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:31:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:32:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:33:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:34:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:35:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:36:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:37:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:38:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:39:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:40:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:41:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:42:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:43:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:44:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:45:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:46:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:47:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:48:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:49:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:50:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:51:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:52:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:53:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:54:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:55:37] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:56:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:57:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:58:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 12:59:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:00:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:01:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:02:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:03:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:04:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:05:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:06:38] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:07:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:08:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:09:37] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:10:32] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:11:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:12:38] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:13:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:14:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:15:37] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:16:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:17:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:18:38] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:19:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:20:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:21:36] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:22:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:23:35] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:24:34] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:25:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:26:38] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:27:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-19 13:28:33] local.ERROR: Cannot redeclare classAckTestOpen() (previously declared in D:\wamp\www\lms\app\helpers.php:5) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare classAckTestOpen() (previously declared in D:\\wamp\\www\\lms\\app\\helpers.php:5) at D:\\wamp\\www\\lms\\app\\helpers.php:5)
+[stacktrace]
+#0 {main}
+"} 
